@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lån Kalkulator</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="top">
+        <div id="image">
+          <img src="loan.png" alt="" />
+          <p style="color:rgb(70, 102, 102);">Den appen ble laget av H. Mazloum</p>
+        </div>
+        <div id="title">
+          <h1>Boliglånskalkulator</h1>
+          <h2>Sjekk hvor mye boliglånet vil koste deg</h2>
+        </div>
+      </div>
+      <div class="info">
+        <div class="input">
+          <input class="felt" type="number" placeholder="Lån" id="laan" />
+          <input class="felt"type="number" placeholder="Rente" id="rente" />
+          <input class="felt" type="number" placeholder="Løpetid" id="ar" />
+        </div>
+
+        <div class="btn">
+          <button id="beregn">Beregne</button>
+
+          <button id="fjerne">Fjerne</button>
+          <button id="lukke">Lukke</button>
+        </div>
+      </div>
+
+      <div id="result">
+        <p id="result1"></p>
+        <p id="result2"></p>
+        <p id="result3"></p>
+        <p id="result4"></p>
+      </div>
+
+      <div class="content">
+        <table id="tabel">
+          <tr>
+            <th>Antall Måneder</th>
+            <th>Lånbeløp</th>
+            <th>Terminbeløp</th>
+            <th>Rente</th>
+            <th>Avdrag</th>
+            <th>Restegjeld</th>
+          </tr>
+          <tbody id="tBody">
+            <tr>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+    <div id="appen">
+      <p class="copy">&copy; Mazloum - 2026</p>
+    </div>
+    <script src="java.js"></script>
+  </body>
+</html>
