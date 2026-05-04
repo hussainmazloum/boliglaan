@@ -288,4 +288,8 @@ h1 {
   #tabel{
     width: 100%;
   }
+
+  #tBody{
+    width: 100%;
+  }
 }
