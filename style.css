@@ -133,7 +133,7 @@ button:hover {
 #tabel {
   width: 100%;
   border-collapse: collapse;
-  min-width: 700px; /* يخلي الجدول ما ينضغط زيادة */
+  min-width: 600px; /* يخلي الجدول ما ينضغط زيادة */
 }
 
 #tabel th{
@@ -188,11 +188,7 @@ tr {
     color: red;
   }
 
-.table-scroll {
-  width: 100%;
-  overflow-x: auto;
-  -webkit-overflow-scrolling: touch; /* مهم للآيفون */
-}
+
 
 /* -------------- media query 768 px -----------------------*/
 @media (max-width: 700px) {
@@ -202,6 +198,16 @@ tr {
     height: 100%;
 
   }
+
+  .top {
+  width: 100%;
+  text-align: center;
+
+  position:static;
+  top: 0;
+  
+/*   border: 3px solid rgb(25, 0, 255);
+ */}
 
   h1 {
     font-size: 40px;
@@ -276,6 +282,16 @@ tr {
 
   }
 
+   .top {
+  width: 100%;
+  text-align: center;
+
+  position:static;
+  top: 0;
+  
+/*   border: 3px solid rgb(25, 0, 255);
+ */}
+
   h1 {
     font-size: 40px;
     color: #0d72ba;
@@ -295,7 +311,7 @@ tr {
   .input {
     display: flex;
     justify-content:center;
-    gap: 5px;
+    gap: px;
     width: 100%;
   }
 
