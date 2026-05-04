@@ -165,7 +165,7 @@ tr {
 
 
 /* -------------- media query 768 px -----------------------*/
-@media (max-width: 480px) {
+@media (max-width: 400px) {
   .container {
     
     width:auto;
