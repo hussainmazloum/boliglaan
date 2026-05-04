@@ -191,21 +191,23 @@ tr {
 
 
 /* -------------- media query 768 px -----------------------*/
+
+@media (max-width: 900px) and (orientation: landscape) {
+  #tabel {
+    min-width: 1000px;
+  }
+}
+
 @media (max-width: 700px) {
   .container {
     
-    width:auto;
+    max-width: 100%;
     height: 100%;
 
   }
 
   .top {
-  width: 100%;
-  text-align: center;
-
   position:static;
-  top: 0;
-  
 /*   border: 3px solid rgb(25, 0, 255);
  */}
 
@@ -255,7 +257,7 @@ tr {
   #tabel {
   width: 100%;
   border-collapse: collapse;
-  min-width: 700px; /* يخلي الجدول ما ينضغط زيادة */
+  min-width: 400px; /* يخلي الجدول ما ينضغط زيادة */
 }
 
 #tabel th{
@@ -277,18 +279,13 @@ tr {
 @media (max-width: 455px) {
   .container {
     
-    width:auto;
+    max-width: 100%;
     height: 100%;
 
   }
 
    .top {
-  width: 100%;
-  text-align: center;
-
   position:static;
-  top: 0;
-  
 /*   border: 3px solid rgb(25, 0, 255);
  */}
 
@@ -311,7 +308,7 @@ tr {
   .input {
     display: flex;
     justify-content:center;
-    gap: 2px;
+    gap: px;
     width: 100%;
   }
 
@@ -338,7 +335,7 @@ tr {
   #tabel {
   width: 100%;
   border-collapse: collapse;
-  min-width: 700px; /* يخلي الجدول ما ينضغط زيادة */
+  min-width: 400px; /* يخلي الجدول ما ينضغط زيادة */
 }
 
 #tabel th{
