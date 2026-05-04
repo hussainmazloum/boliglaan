@@ -13,7 +13,7 @@ body {
 
 /* Hoved inneholder */
 .container {
-  width: 90%;
+  width: 95%;
   height: 95%;
   margin: 0 auto;
   background-color: #bdccfa;
@@ -168,7 +168,7 @@ tr {
 @media (max-width: 480px) {
   .container {
     
-    width: 100%;
+    width:auto;
     height: 100%;
 
   }
@@ -192,7 +192,7 @@ tr {
   .input {
     display: flex;
     justify-content:center;
-    gap: 5px;
+    gap: 2px;
     width: 100%;
   }
 
