@@ -217,6 +217,10 @@ h1 {
   .red{
     color: red;
   }
+
+  #tabel{
+    width: 100%;
+  }
 }
 /* -------------- media query 520 -----------------------*/
 @media (max-width: 520px) {
@@ -279,5 +283,9 @@ h1 {
 
   .red{
     color: red;
+  }
+
+  #tabel{
+    width: 100%;
   }
 }
