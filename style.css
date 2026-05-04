@@ -13,7 +13,7 @@ body {
 
 /* Hoved inneholder */
 .container {
-  width: 80%;
+  width: 90%;
   height: 95%;
   margin: 0 auto;
   background-color: #bdccfa;
@@ -120,7 +120,8 @@ button:hover {
   padding: 10px;
   text-align: center;
   border: 1px solid #ccc;
-  color: darkblue;
+  color: #676767;
+  font-weight:bold;
 }
 
 
@@ -164,13 +165,11 @@ tr {
 
 
 /* -------------- media query 768 px -----------------------*/
-@media (max-width: 500px) {
+@media (max-width: 480px) {
   .container {
     
     width: 100%;
     height: 100%;
-
-        border: 1px solid red;
 
   }
 
