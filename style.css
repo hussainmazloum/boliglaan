@@ -219,7 +219,7 @@ h1 {
   }
 }
 /* -------------- media query 520 -----------------------*/
-@media (max-width: 500px) {
+@media (max-width: 520px) {
   .container {
     width: 100%;
     height: 100%;
