@@ -192,8 +192,8 @@ tr {
   .input {
     display: flex;
     justify-content:center;
-/*     gap: 2px;
- */    width: 100%;
+    gap: 2px;
+    width: 100%;
   }
 
   .input .felt {
@@ -265,8 +265,8 @@ tr {
   .input {
     display: flex;
     justify-content:center;
-/*     gap: 2px;
- */    width: 100%;
+    gap: 2px;
+    width: 100%;
   }
 
   .input .felt {
