@@ -13,7 +13,7 @@ body {
 
 /* Hoved inneholder */
 .container {
-  width: 100%;
+  width: 95%;
   height: 95%;
   margin: 0 auto;
   background-color: #bdccfa;
@@ -165,10 +165,10 @@ tr {
 
 
 /* -------------- media query 768 px -----------------------*/
-@media (max-width: 500px) {
+@media (max-width: 700px) {
   .container {
     
-    width:100%;
+    width:auto;
     height: 100%;
 
   }
@@ -237,4 +237,78 @@ tr {
   font-size: 12px;
 }
 
+/* -------------- media query 455 px -----------------------*/
+@media (max-width: 455px) {
+  .container {
+    
+    width:auto;
+    height: 100%;
+
+  }
+
+  h1 {
+    font-size: 40px;
+    color: #0d72ba;
+  }
+
+  h2{
+    font-size: 20px;
+    padding-bottom: 10px;
+
+  }
+
+  .info {
+    width: 100%;
+    flex-wrap: wrap;
+  }
+
+  .input {
+    display: flex;
+    justify-content:center;
+/*     gap: 2px;
+ */    width: 100%;
+  }
+
+  .input .felt {
+
+  width: 140px;
+  height: 35px;
+  font-size: 18px;
+  font-weight: bold;
+  color: #0d72ba;
+  padding: 0 10px;
+}
+
+  #result {
+    width: 100%;
+    font-size: 14px;
+    color: rgb(25, 0, 255);
+  }
+
+  .red{
+    color: red;
+  }
+
+  #tabel {
+  width: 100%;
+  border-collapse: collapse;
+  min-width: 400px; /* يخلي الجدول ما ينضغط زيادة */
+}
+
+#tabel th{
+  color: #0d72ba;
+  font-size: 12px;
+  font-weight: bolder;
+
+} 
+
+#tabel td {
+  padding: 10px;
+  text-align: center;
+  border: 1px solid #ccc;
+  color: darkblue;
+  font-size: 12px;
+}
+
+}
 }
