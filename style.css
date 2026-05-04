@@ -191,17 +191,10 @@ tr {
 
 
 /* -------------- media query 768 px -----------------------*/
-
-@media (max-width: 900px) and (orientation: landscape) {
-  #tabel {
-    min-width: 1000px;
-  }
-}
-
 @media (max-width: 700px) {
   .container {
     
-    max-width: 100%;
+    width:auto;
     height: 100%;
 
   }
@@ -279,13 +272,15 @@ tr {
 @media (max-width: 455px) {
   .container {
     
-    max-width: 100%;
+    width:auto;
     height: 100%;
 
   }
 
    .top {
   position:static;
+
+  
 /*   border: 3px solid rgb(25, 0, 255);
  */}
 
