@@ -13,7 +13,7 @@ body {
 
 /* Hoved inneholder */
 .container {
-  width: 85%;
+  width: 90%;
   height: 95%;
   margin: 0 auto;
   background-color: #bdccfa;
@@ -228,6 +228,7 @@ tr {
   font-weight: bolder;
 
 } 
+
 #tabel td {
   padding: 10px;
   text-align: center;
