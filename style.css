@@ -221,6 +221,10 @@ h1 {
   #tabel{
     width: 100%;
   }
+
+  #tBody{
+    width: 100%;
+  }
 }
 /* -------------- media query 520 -----------------------*/
 @media (max-width: 520px) {
@@ -286,10 +290,10 @@ h1 {
   }
 
   #tabel{
-    width: 90%;
+    width: 100%;
   }
 
   #tBody{
-    width: 90%;
+    width: 100%;
   }
 }
