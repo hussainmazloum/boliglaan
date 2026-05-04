@@ -133,7 +133,7 @@ button:hover {
 #tabel {
   width: 100%;
   border-collapse: collapse;
-  min-width: 600px; /* يخلي الجدول ما ينضغط زيادة */
+  min-width: 700px; /* يخلي الجدول ما ينضغط زيادة */
 }
 
 #tabel th{
@@ -188,7 +188,11 @@ tr {
     color: red;
   }
 
-
+.table-scroll {
+  width: 100%;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch; /* مهم للآيفون */
+}
 
 /* -------------- media query 768 px -----------------------*/
 @media (max-width: 700px) {
