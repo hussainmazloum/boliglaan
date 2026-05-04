@@ -255,7 +255,7 @@ tr {
   #tabel {
   width: 100%;
   border-collapse: collapse;
-  min-width: 400px; /* يخلي الجدول ما ينضغط زيادة */
+  min-width: 700px; /* يخلي الجدول ما ينضغط زيادة */
 }
 
 #tabel th{
@@ -311,7 +311,7 @@ tr {
   .input {
     display: flex;
     justify-content:center;
-    gap: px;
+    gap: 2px;
     width: 100%;
   }
 
@@ -338,7 +338,7 @@ tr {
   #tabel {
   width: 100%;
   border-collapse: collapse;
-  min-width: 400px; /* يخلي الجدول ما ينضغط زيادة */
+  min-width: 700px; /* يخلي الجدول ما ينضغط زيادة */
 }
 
 #tabel th{
