@@ -65,7 +65,7 @@ h2 {
 /*    border: 5px solid rgb(0, 38, 255);
  */ }
 .input input {
-  width: 180px;
+  width: 200px;
   height: 35px;
   font-size: 20px;
   font-weight: bold;
@@ -243,11 +243,12 @@ h1 {
 
   .input {
     display: flex;
-    width: 100%;
+    width: 96.5%;
+    margin: 0 8px;
   }
 
   .input input {
-    width: 100%;
+    width: 90%;
   }
 
   .content {
